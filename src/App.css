@@ -46,13 +46,9 @@ th {
   text-align: left;
 }
 
-.floating-box {
-  display: inline-block;
-}
-
-#connect-bar {
-  display: inline-block;
-  margin-left: 29rem;
+.connect-bar {
+  display: inline-flex;
+  /* margin-left: 29rem; */
 }
 
 button {

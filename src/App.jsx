@@ -48,11 +48,13 @@ const App = () => {
 
       <div className="connected">
         <h3> {filteredClients ? filteredClients.length: "No clients"} connected clients</h3>
-        <p className="floating-box" >They have enough data to use Fluidly</p>
-        <div id="connect-bar">
-          <button >Connected ({filteredClients ? filteredClients.length: 0})</button>
-          <button >All ({data ? data.length: 0})</button>
-        <FilterForm filterData={filterData} />
+       
+        
+        <div className="connect-bar">
+        <p >They have enough data to use Fluidly</p>
+            <button className="connect-btn" >Connected ({filteredClients ? filteredClients.length: 0})</button>
+            <button >All ({data ? data.length: 0})</button>
+          <FilterForm filterData={filterData}/>
         </div>
 
       </div>

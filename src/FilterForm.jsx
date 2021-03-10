@@ -1,4 +1,6 @@
 import {useState} from 'react';
+import './App.css'
+
 
 const FilterForm = ({filterData}) => {
 
@@ -11,7 +13,7 @@ const FilterForm = ({filterData}) => {
 
     return (
         <div>
-            <input className="filter-form" onChange={handleChange} type="text" value={filterKeyword} placeholder="Find a client..."/>
+            <input className="connect-bar" id="search" onChange={handleChange} type="text" value={filterKeyword} placeholder="Find a client..."/>
 
         </div>
     )
