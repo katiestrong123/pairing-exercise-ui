@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "name": "Demo Company (UK)",
+      "currencyCode": "GBP",
+      "openingBalance": 1760.54,
+      "currentMonthRevenueAmount": 7415.94,
+      "currentMonthRevenueDate": "2019-10-31",
+      "previousMonthRevenueAmount": 13489.64,
+      "previousMonthRevenueDate": "2019-09-30",
+      "currentMonthOpeningBalanceAmount": 2171.89,
+      "currentMonthOpeningBalanceDate": "2019-11-01",
+      "previousMonthOpeningBalanceAmount": 1957.44,
+      "previousMonthOpeningBalanceDate": "2019-10-01",
+      "totalTradeDebtors": 9194.51,
+      "totalTradeCreditors": 8386.76,
+      "disconnectedAt": null,
+      "organisationId": "1"
+    },
+    {
+      "name": "Demo Company (Global)",
+      "currencyCode": "USD",
+      "openingBalance": 2760.54,
+      "currentMonthRevenueAmount": 8415.94,
+      "currentMonthRevenueDate": "2019-10-31",
+      "previousMonthRevenueAmount": 15489.64,
+      "previousMonthRevenueDate": "2019-09-30",
+      "currentMonthOpeningBalanceAmount": 6171.89,
+      "currentMonthOpeningBalanceDate": "2019-11-01",
+      "previousMonthOpeningBalanceAmount": 8957.44,
+      "previousMonthOpeningBalanceDate": "2019-10-01",
+      "totalTradeDebtors": 1194.51,
+      "totalTradeCreditors": 83386.76,
+      "disconnectedAt": null,
+      "organisationId": "2"
+    },
+    {
+      "name": "Another Company",
+      "currencyCode": "GBP",
+      "openingBalance": 10760.54,
+      "currentMonthRevenueAmount": 70415.94,
+      "currentMonthRevenueDate": "2019-10-31",
+      "previousMonthRevenueAmount": 3489.64,
+      "previousMonthRevenueDate": "2019-09-30",
+      "currentMonthOpeningBalanceAmount": 2171,
+      "currentMonthOpeningBalanceDate": "2019-11-01",
+      "previousMonthOpeningBalanceAmount": 1950.44,
+      "previousMonthOpeningBalanceDate": "2019-10-01",
+      "totalTradeDebtors": 919.51,
+      "totalTradeCreditors": 836.76,
+      "disconnectedAt": "2019-11-01",
+      "organisationId": "3"
+    }
+  ],
+  "meta": {
+    "kingdom_id": 3,
+    "page": 1,
+    "pageSize": 10,
+    "sort": "organisation_name_asc",
+    "totalClients": 3,
+    "totalCount": 3,
+    "totalPages": 1
+  }
+}
