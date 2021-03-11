@@ -42,8 +42,8 @@ const App = () => {
   return (
     <div className="App">
       <div className="header">
-        <h2 className="main-heading"  > Hey user, here's a snapshot of how your clients are doing today</h2>
-        <p className="sub-heading"  >Keeping their account accounts up to to date will make sure this info accurate</p>
+        <h2 className="main-heading"  > Hey Pablo, here's a snapshot of how your clients are doing today</h2>
+        <p className="sub-heading"  >Keeping their accounts up to to date will make sure this info accurate</p>
       </div>
 
       <div className="connected">
@@ -51,9 +51,9 @@ const App = () => {
        
         
         <div className="connect-bar">
-        <p >They have enough data to use Fluidly</p>
-            <button className="connect-btn" >Connected ({filteredClients ? filteredClients.length: 0})</button>
-            <button >All ({data ? data.length: 0})</button>
+        <p id="enough-data">They have enough data to use Fluidly</p>
+            <button id="connect-btn" >Connected ({filteredClients ? filteredClients.length: 0})</button>
+            <button id="all">All ({data ? data.length: 0})</button>
           <FilterForm filterData={filterData}/>
         </div>
 
